@@ -1,0 +1,165 @@
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+.page-header {
+  color: #000000;
+  background: #FFFFFF;
+}
+.navigation-link {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  color: inherit;
+}
+.navigation-link-i-want-here  {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-align: center;
+  text-transform:uppercase ;
+}
+.about-text  {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.promo p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+}
+.features1,
+.features2,
+.features3,
+.features4,
+.features5,
+.features6,
+.features7,
+.features8 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background: rgba(131, 179, 211, 0.12);
+  text-align: center;
+}
+.features1 .features-title,
+.features2 .features-title,
+.features3 .features-title,
+.features4 .features-title,
+.features5 .features-title,
+.features6 .features-title,
+.features7 .features-title,
+.features8 .features-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+}
+.features1 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-align: center;
+}
+.features1,
+.features5 {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.features3 {
+background: #FFFFFF;
+}
+.features7 {
+background: rgba(131, 179, 211, 0.2);
+}
+.subscribe-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+
+}
+.subscribe-button {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #756257;
+  border-radius: 10px;
+
+}
+.call-to-action {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  background-image: url("");
+}
+.call-to-action-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.footer-contacts-address-phone {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
