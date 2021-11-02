@@ -3,15 +3,14 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
-
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("fonts/ptsans-700.woff2 ") format("woff2");
   font-display: swap;
 }
 body {
@@ -33,7 +32,6 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
-  text-decoration: none;
   color: inherit;
 }
 .navigation-link-i-want-here  {
@@ -93,7 +91,6 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-
 }
 .features1 {
   font-weight: normal;
@@ -108,7 +105,6 @@ body {
   color: #FFFFFF;
   background-color: #83B3D3;
 }
-
 .features3 {
 background: #FFFFFF;
 }
@@ -124,7 +120,6 @@ background: rgba(131, 179, 211, 0.2);
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-
 }
 .subscribe-button {
   font-family: PT Sans;
@@ -137,7 +132,6 @@ background: rgba(131, 179, 211, 0.2);
   color: #FFFFFF;
   background: #756257;
   border-radius: 10px;
-
 }
 .call-to-action {
   color: #FFFFFF;
@@ -152,7 +146,6 @@ background: rgba(131, 179, 211, 0.2);
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-
 }
 .footer-contacts-address-phone {
   font-family: PT Sans;
