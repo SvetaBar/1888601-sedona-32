@@ -3,18 +3,18 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2 ") format("woff2");
+  src: url("../fonts/ptsans-700.woff2 ") format("woff2");
   font-display: swap;
 }
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif, "Arial";
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -33,8 +33,9 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: inherit;
+  text-decoration: none;
 }
-.navigation-link-i-want-here  {
+.navigation-link-brown  {
   font-family: PT Sans;
   font-style: normal;
   font-weight: bold;
@@ -44,6 +45,7 @@ body {
   background-color: #756257;
   text-align: center;
   text-transform:uppercase ;
+  text-decoration: none;
 }
 .about-text  {
   font-family: PT Sans;
@@ -64,14 +66,7 @@ body {
   text-align: center;
   color: #333333;
 }
-.features1,
-.features2,
-.features3,
-.features4,
-.features5,
-.features6,
-.features7,
-.features8 {
+.features-item {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -79,36 +74,19 @@ body {
   background: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
-.features1 .features-title,
-.features2 .features-title,
-.features3 .features-title,
-.features4 .features-title,
-.features5 .features-title,
-.features6 .features-title,
-.features7 .features-title,
-.features8 .features-title {
+.features-item .features-title {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
-.features1 {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  color: #FFFFFF;
-  background-color: #83B3D3;
-  text-align: center;
-}
-.features1,
-.features5 {
-  color: #FFFFFF;
+.features-item-dark-blue {
   background-color: #83B3D3;
 }
-.features3 {
+.features-item-white {
 background: #FFFFFF;
 }
-.features7 {
+.features-item-custom-blue {
 background: rgba(131, 179, 211, 0.2);
 }
 .subscribe-title {
@@ -132,11 +110,12 @@ background: rgba(131, 179, 211, 0.2);
   color: #FFFFFF;
   background: #756257;
   border-radius: 10px;
+  text-decoration: none;
 }
 .call-to-action {
   color: #FFFFFF;
   background-color: #83B3D3;
-  background-image: url("");
+  background-image: url("../images/call-to-action-canyon.jpg");
 }
 .call-to-action-title {
   font-family: PT Sans;
@@ -146,6 +125,7 @@ background: rgba(131, 179, 211, 0.2);
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-contacts-address-phone {
   font-family: PT Sans;
@@ -155,4 +135,5 @@ background: rgba(131, 179, 211, 0.2);
   line-height: 40px;
   text-align: center;
   color: #000000;
+  text-decoration: none;
 }
