@@ -16,8 +16,11 @@
 html {
   height: 100%;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -36,8 +39,6 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
-  width: 1057px;
-  margin: 0 auto;
 }
 .navigation-link {
   font-family: PT Sans;
@@ -63,13 +64,8 @@ body {
 .main-container {
   flex-grow: 1;
 }
-.page-container {
-  width: 1057px;
-  margin: 0 auto;
-}
 .promo {
   display: block;
-  margin: 0 auto;
   padding: 0;
 }
 .about-text  {
@@ -109,12 +105,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 auto;
   padding: 0;
 }
 .features-item-dark-blue {
+  /*flex-direction: row;
+  justify-content: space-between;*/
   color: #FFFFFF;
   background-color: #83B3D3;
+  /*width: 400px;
+  height: 384px;*/
 }
 .features-item-light-blue {
   width: 400px;
@@ -166,9 +165,7 @@ body {
 }
 .call-to-action {
   display: block;
-  margin: 0 auto;
   padding: 0;
-  width: 1057px;
   height: 411px;
   color: #FFFFFF;
   text-align: center;
@@ -184,8 +181,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.call-to-action-input {
-
 .call-to-action-button {
   display: flex;
   align-items: center;
@@ -198,8 +193,6 @@ body {
 .page-footer {
   display: flex;
   justify-content: space-between;
-  width: 1057px;
-  margin: 0 auto;
 }
 .footer-contacts-address-phone {
   font-family: PT Sans;
