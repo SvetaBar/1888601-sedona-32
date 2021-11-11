@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "Arial", "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif,"Arial";
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -60,9 +60,6 @@ body {
   text-align: center;
   text-transform:uppercase ;
   text-decoration: none;
-}
-.main-container {
-  flex-grow: 1;
 }
 .promo {
   display: block;
@@ -101,19 +98,20 @@ body {
   line-height: 28px;
   text-transform: uppercase;
 }
-.index-columns {
+.index-columns,
+.index-columns-order {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 0;
 }
+.index-columns-order {
+ flex-direction:row-reverse;
+}
 .features-item-dark-blue {
-  /*flex-direction: row;
-  justify-content: space-between;*/
   color: #FFFFFF;
   background-color: #83B3D3;
-  /*width: 400px;
-  height: 384px;*/
+  width: 400px;
+  height: 384px;
 }
 .features-item-light-blue {
   width: 400px;
