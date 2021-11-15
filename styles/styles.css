@@ -20,17 +20,31 @@ html {
   width: 1200px;
   margin: 0 auto;
 }
+main-container main-index {
+  padding-top: 65px;
+  padding-bottom: 0px;
+}
 body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "PT Sans", sans-serif,"Arial";
+  font-family: "PT Sans", "Arial",sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   background-color: #FFFFFF;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .page-header {
   color: #000000;
@@ -40,7 +54,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 .navigation-link {
+  display: block;
+  padding: 20px;
   font-family: PT Sans;
   font-style: normal;
   font-weight: bold;
@@ -63,7 +87,9 @@ body {
 }
 .promo {
   display: block;
-  padding: 0;
+  padding-top: 51px;
+  padding-bottom: 79px;
+  margin: 0;
 }
 .about-text  {
   font-family: PT Sans;
@@ -102,7 +128,10 @@ body {
 .index-columns-order {
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .index-columns-order {
  flex-direction:row-reverse;
@@ -127,6 +156,15 @@ body {
   height: 384px;
   background: rgba(131, 179, 211, 0.2);
 }
+.features-title {
+  padding-top: 98px;
+}
+.features-number {
+  padding-top: 25px
+}
+.features-text {
+  padding-top: 26px
+}
 .subscribe {
   display: block;
   margin: 0 auto;
@@ -143,6 +181,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  padding-top: 91px;
+}
+.subscribe-text {
+  padding-top: 15px;
+  padding-bottom: 73px;
 }
 .subscribe-button {
   display: block;
@@ -163,12 +206,13 @@ body {
 }
 .call-to-action {
   display: block;
-  padding: 0;
   height: 411px;
   color: #FFFFFF;
   text-align: center;
   background-color: #83B3D3;
   background-image: url("../images/call-to-action-canyon.jpg");
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .call-to-action-title {
   font-family: PT Sans;
@@ -178,6 +222,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-decoration: none;
+  padding-top: 94px;
 }
 .call-to-action-button {
   display: flex;
@@ -187,10 +232,17 @@ body {
   background-color: #83B3D3;
   width: 200px;
   height: 60px;
+  padding-bottom: 93px;
 }
 .page-footer {
   display: flex;
   justify-content: space-between;
+}
+.footer-social-list {
+  list-style-type: none;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 55px;
 }
 .footer-contacts-address-phone {
   font-family: PT Sans;
@@ -201,4 +253,8 @@ body {
   text-align: center;
   color: #000000;
   text-decoration: none;
+}
+.footer-contacts {
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
