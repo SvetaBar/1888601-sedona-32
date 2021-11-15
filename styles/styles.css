@@ -130,8 +130,6 @@ body {
   justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .index-columns-order {
  flex-direction:row-reverse;
@@ -165,6 +163,11 @@ body {
 .features-text {
   padding-top: 26px
 }
+.index-columns-order .features-photo,
+.features-item .features-photo {
+  vertical-align: middle;
+}
+
 .subscribe {
   display: block;
   margin: 0 auto;
