@@ -19,8 +19,12 @@ html {
 .container {
   width: 1200px;
   margin: 0 auto;
+  background-color: #ffffff
 }
-main-container main-index {
+.reset-text {
+  margin: 0;
+}
+.main-container .main-index {
   padding-top: 65px;
   padding-bottom: 0px;
 }
@@ -28,13 +32,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "PT Sans", "Arial",sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
-  background-color: #FFFFFF;
+  background-color: #f2f2f2;
 }
 .visually-hidden {
   position: absolute;
@@ -63,7 +67,6 @@ body {
   list-style-type: none;
 }
 .navigation-link {
-  display: block;
   padding: 20px;
   font-family: PT Sans;
   font-style: normal;
@@ -86,7 +89,6 @@ body {
   text-decoration: none;
 }
 .promo {
-  display: block;
   padding-top: 51px;
   padding-bottom: 79px;
   margin: 0;
@@ -138,20 +140,16 @@ body {
   color: #FFFFFF;
   background-color: #83B3D3;
   width: 400px;
-  height: 384px;
-}
+  }
 .features-item-light-blue {
   width: 400px;
-  height: 384px;
-}
+  }
 .features-item-white {
   width: 400px;
-  height: 384px;
   background: #FFFFFF;
 }
 .features-item-custom-blue {
   width: 400px;
-  height: 384px;
   background: rgba(131, 179, 211, 0.2);
 }
 .features-title {
@@ -169,12 +167,10 @@ body {
 }
 
 .subscribe {
-  display: block;
   margin: 0 auto;
   padding: 0;
   width: 1057px;
-  height: 417px;
-}
+  }
 .subscribe-title {
   font-family: PT Sans;
   font-style: normal;
@@ -191,7 +187,6 @@ body {
   padding-bottom: 73px;
 }
 .subscribe-button {
-  display: block;
   margin: 0 auto;
   font-family: PT Sans;
   font-style: normal;
@@ -205,10 +200,8 @@ body {
   border-radius: 10px;
   text-decoration: none;
   width: 575px;
-  height: 60px;
 }
 .call-to-action {
-  display: block;
   height: 411px;
   color: #FFFFFF;
   text-align: center;
@@ -218,7 +211,6 @@ body {
   margin-bottom: 0;
 }
 .call-to-action-title {
-  font-family: PT Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -234,8 +226,13 @@ body {
   color: #FFFFFF;
   background-color: #83B3D3;
   width: 200px;
-  height: 60px;
   padding-bottom: 93px;
+}
+.call-to-action-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
 }
 .page-footer {
   display: flex;
@@ -243,7 +240,6 @@ body {
 }
 .footer-social-list {
   list-style-type: none;
-  display: block;
   padding-top: 50px;
   padding-bottom: 55px;
 }
